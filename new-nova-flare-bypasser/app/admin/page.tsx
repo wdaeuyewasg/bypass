@@ -79,7 +79,7 @@ export default function AdminPage() {
   const handleLogout = () => {
     setIsAuthenticated(false)
     sessionStorage.removeItem("admin_auth")
-    setPassword("")
+    setPassword("123")
   }
 
   const formatTimestamp = (timestamp: string) => {
